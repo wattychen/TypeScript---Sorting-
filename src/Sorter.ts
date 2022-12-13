@@ -1,7 +1,7 @@
 interface Sortable {
-    length: number;
-    compare(left: number, right: number): boolean;
-    swap(left: number, right: number): void;
+  length: number;
+  compare(left: number, right: number): boolean;
+  swap(left: number, right: number): void;
 }
 
 export class Sorter {

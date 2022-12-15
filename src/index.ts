@@ -8,10 +8,10 @@ const sorter = new Sorter(numbersCollection);
 sorter.sort();
 console.log(numbersCollection.data);
 
-const charactersCollection = new CharactersCollection('Hello');
-const stringSorter = new Sorter(charactersCollection)
-stringSorter.sort()
-console.log(charactersCollection.data)
+const charactersCollection = new CharactersCollection("Hello");
+const stringSorter = new Sorter(charactersCollection);
+stringSorter.sort();
+console.log(charactersCollection.data);
 
 const linkedList = new LinkedList();
 linkedList.add(100);

@@ -8,7 +8,7 @@ const numbersCollection = new NumbersCollection_1.NumbersCollection([1, 99, -5, 
 const sorter = new Sorter_1.Sorter(numbersCollection);
 sorter.sort();
 console.log(numbersCollection.data);
-const charactersCollection = new CharactersCollection_1.CharactersCollection('Hello');
+const charactersCollection = new CharactersCollection_1.CharactersCollection("Hello");
 const stringSorter = new Sorter_1.Sorter(charactersCollection);
 stringSorter.sort();
 console.log(charactersCollection.data);
